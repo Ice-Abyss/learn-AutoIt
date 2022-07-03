@@ -1,0 +1,11 @@
+#RequireAdmin
+;MouseClick("left",36,525,3)
+;WinWait("QQ")
+;Sleep(2000)
+ProcessClose("QQ.exe");
+Run("D:\software\QQ\Bin\QQ.exe")
+Sleep(5000)
+Send("135792468yyyu")
+Sleep(1000)
+Send("{enter}")
+MsgBox(0,"","ok",2)
